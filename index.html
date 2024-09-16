@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Můj první projekt v JavaScriptu</title>
 
-    <!-- Odkazujeme na js -->
+    
     <script src="/js/script.js"></script>
 </head>
 <body>
@@ -14,14 +14,19 @@
     </header>
     <main>
         <section>
-            <!-- Pomocí id zajišťujeme komunikaci mezi html elementem a js.  -->
+            
             <label for="input">Zadej text</label>
             <input type="text" id="input">
-            <!-- onclikc musí mít název funkce, který odpovídá funkci v js, který je připojený k html. Pozor je to key sensitivity, takže rozlišuje malá a velká písmena -->
-            <button onclick="Add()">Přidej</button> <!-- oncliock - Událost (event), která spouští funkci podle toho, pokud se na element klikne -->
+          
+            <button onclick="Add()">Přidej</button> 
+            <br>
+            <button onclick="Add()">:D</button>
+            <button onclick="Add()">:P</button>
+            <button onclick="Add()">xD</button>
+            <button>Smazat</button>
         </section>
         <section>
-            <!-- Zde odkazujeme na <p> pomocá id, zde se budou vypisovat text, který vložíme pomocí js přes input -->
+            
             <p id="output">
 
             </p>
